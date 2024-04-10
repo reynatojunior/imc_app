@@ -21,8 +21,8 @@ void main(List<String> arguments) {
 
   var result = imc(p1.peso, p1.altura);
 
-  print("Olá " + p1.nome);
-  print("seu imc é: $result");
+  print("Olá bom dia " + p1.nome);
+  print("seu imc real é: $result");
 
   if (result < 16) {
     print("Magreza Grave");
